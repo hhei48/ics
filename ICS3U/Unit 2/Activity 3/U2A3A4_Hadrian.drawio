@@ -1,0 +1,85 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="Q_HIq6_sj9r0gmflGw4Y">
+    <mxGraphModel dx="5507" dy="3268" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lm2o_E4Dk_FjeLU2bBo7-8" edge="1" parent="1" source="lm2o_E4Dk_FjeLU2bBo7-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lm2o_E4Dk_FjeLU2bBo7-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lm2o_E4Dk_FjeLU2bBo7-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Inter;" value="Start" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lm2o_E4Dk_FjeLU2bBo7-9" edge="1" parent="1" source="lm2o_E4Dk_FjeLU2bBo7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lm2o_E4Dk_FjeLU2bBo7-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lm2o_E4Dk_FjeLU2bBo7-4" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;shapeInside=1;fontFamily=Inter;" value="Get rational number set from user" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="lm2o_E4Dk_FjeLU2bBo7-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Process rational set from user" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="lm2o_E4Dk_FjeLU2bBo7-7" edge="1" parent="1" source="lm2o_E4Dk_FjeLU2bBo7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lm2o_E4Dk_FjeLU2bBo7-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="560" />
+              <mxPoint x="560" y="240.0000000000001" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lm2o_E4Dk_FjeLU2bBo7-11" connectable="0" parent="lm2o_E4Dk_FjeLU2bBo7-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.0882" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lm2o_E4Dk_FjeLU2bBo7-15" edge="1" parent="1" source="lm2o_E4Dk_FjeLU2bBo7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lm2o_E4Dk_FjeLU2bBo7-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lm2o_E4Dk_FjeLU2bBo7-17" connectable="0" parent="lm2o_E4Dk_FjeLU2bBo7-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.066" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lm2o_E4Dk_FjeLU2bBo7-6" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Is the processing successful and input is valid" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="lm2o_E4Dk_FjeLU2bBo7-10" edge="1" parent="1" source="lm2o_E4Dk_FjeLU2bBo7-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="lm2o_E4Dk_FjeLU2bBo7-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lm2o_E4Dk_FjeLU2bBo7-23" edge="1" parent="1" source="lm2o_E4Dk_FjeLU2bBo7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lm2o_E4Dk_FjeLU2bBo7-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lm2o_E4Dk_FjeLU2bBo7-13" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;shapeInside=1;fontFamily=Inter;" value="Print the sorted list" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="lm2o_E4Dk_FjeLU2bBo7-16" edge="1" parent="1" source="lm2o_E4Dk_FjeLU2bBo7-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lm2o_E4Dk_FjeLU2bBo7-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lm2o_E4Dk_FjeLU2bBo7-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Sort the processed list" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="lm2o_E4Dk_FjeLU2bBo7-24" edge="1" parent="1" source="lm2o_E4Dk_FjeLU2bBo7-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lm2o_E4Dk_FjeLU2bBo7-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lm2o_E4Dk_FjeLU2bBo7-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Calculate mean" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="lm2o_E4Dk_FjeLU2bBo7-25" edge="1" parent="1" source="lm2o_E4Dk_FjeLU2bBo7-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lm2o_E4Dk_FjeLU2bBo7-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lm2o_E4Dk_FjeLU2bBo7-20" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;shapeInside=1;fontFamily=Inter;" value="Print mean" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="lm2o_E4Dk_FjeLU2bBo7-26" edge="1" parent="1" source="lm2o_E4Dk_FjeLU2bBo7-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lm2o_E4Dk_FjeLU2bBo7-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lm2o_E4Dk_FjeLU2bBo7-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Calculate standard deviation" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="lm2o_E4Dk_FjeLU2bBo7-22" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;shapeInside=1;fontFamily=Inter;" value="Print standard deviation" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="1480" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

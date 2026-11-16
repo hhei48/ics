@@ -1,0 +1,83 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="vRgVWHGVkP_UQyqq_eeu">
+    <mxGraphModel dx="2659" dy="1578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t5JMQgAL404RHvPg_U0y-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Inter;" value="&lt;span style=&quot;font-family: Helvetica;&quot;&gt;Start converts decimal number to the required output base&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="t5JMQgAL404RHvPg_U0y-8" edge="1" parent="1" source="t5JMQgAL404RHvPg_U0y-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="t5JMQgAL404RHvPg_U0y-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5JMQgAL404RHvPg_U0y-9" connectable="0" parent="t5JMQgAL404RHvPg_U0y-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="No" vertex="1">
+          <mxGeometry relative="1" x="0.238" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t5JMQgAL404RHvPg_U0y-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Is the required base decimal" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="t5JMQgAL404RHvPg_U0y-3" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Inter;" value="Return the decimal number directly" vertex="1">
+          <mxGeometry height="80" width="160" x="560" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="t5JMQgAL404RHvPg_U0y-4" edge="1" parent="1" source="t5JMQgAL404RHvPg_U0y-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="t5JMQgAL404RHvPg_U0y-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5JMQgAL404RHvPg_U0y-6" connectable="0" parent="t5JMQgAL404RHvPg_U0y-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.009" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t5JMQgAL404RHvPg_U0y-5" edge="1" parent="1" source="t5JMQgAL404RHvPg_U0y-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="t5JMQgAL404RHvPg_U0y-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5JMQgAL404RHvPg_U0y-21" edge="1" parent="1" source="t5JMQgAL404RHvPg_U0y-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="t5JMQgAL404RHvPg_U0y-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5JMQgAL404RHvPg_U0y-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Convert the decimal to an integer" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="t5JMQgAL404RHvPg_U0y-14" edge="1" parent="1" source="t5JMQgAL404RHvPg_U0y-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="t5JMQgAL404RHvPg_U0y-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5JMQgAL404RHvPg_U0y-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Add the remainer of the decimal number divided by the required base in the form of the base as a string to the result string&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="t5JMQgAL404RHvPg_U0y-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Integer divide the decimal number by the base" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="t5JMQgAL404RHvPg_U0y-13" edge="1" parent="1" source="t5JMQgAL404RHvPg_U0y-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="t5JMQgAL404RHvPg_U0y-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="1159.9999999999998" />
+              <mxPoint x="240" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t5JMQgAL404RHvPg_U0y-20" connectable="0" parent="t5JMQgAL404RHvPg_U0y-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.8222" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t5JMQgAL404RHvPg_U0y-12" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Is the decimal number still bigger than 0" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="t5JMQgAL404RHvPg_U0y-16" edge="1" parent="1" source="t5JMQgAL404RHvPg_U0y-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="t5JMQgAL404RHvPg_U0y-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5JMQgAL404RHvPg_U0y-17" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Inter;" value="Return the reversed string of the converted number string" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="t5JMQgAL404RHvPg_U0y-18" edge="1" parent="1" source="t5JMQgAL404RHvPg_U0y-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="t5JMQgAL404RHvPg_U0y-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5JMQgAL404RHvPg_U0y-19" connectable="0" parent="t5JMQgAL404RHvPg_U0y-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.0764" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,104 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="arcbjet48dYtyaSkJnGu">
+    <mxGraphModel dx="3085" dy="1326" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jdP1y3YxQVjfrDyNUJ6o-3" edge="1" parent="1" source="jdP1y3YxQVjfrDyNUJ6o-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="jdP1y3YxQVjfrDyNUJ6o-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdP1y3YxQVjfrDyNUJ6o-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Inter;" value="Start" vertex="1">
+          <mxGeometry height="80" width="160" x="280" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jdP1y3YxQVjfrDyNUJ6o-29" edge="1" parent="1" source="jdP1y3YxQVjfrDyNUJ6o-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="jdP1y3YxQVjfrDyNUJ6o-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdP1y3YxQVjfrDyNUJ6o-2" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;shapeInside=1;fontFamily=Inter;" value="Print title and menu of options" vertex="1">
+          <mxGeometry height="80" width="160" x="280" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="jdP1y3YxQVjfrDyNUJ6o-30" edge="1" parent="1" source="jdP1y3YxQVjfrDyNUJ6o-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="jdP1y3YxQVjfrDyNUJ6o-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdP1y3YxQVjfrDyNUJ6o-4" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;shapeInside=1;fontFamily=Inter;" value="Get choice from user" vertex="1">
+          <mxGeometry height="80" width="160" x="280" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="jdP1y3YxQVjfrDyNUJ6o-31" edge="1" parent="1" source="jdP1y3YxQVjfrDyNUJ6o-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="jdP1y3YxQVjfrDyNUJ6o-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdP1y3YxQVjfrDyNUJ6o-5" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;shapeInside=1;fontFamily=Inter;" value="Get &#39;n&#39; from user" vertex="1">
+          <mxGeometry height="80" width="160" x="280" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="jdP1y3YxQVjfrDyNUJ6o-20" edge="1" parent="1" source="jdP1y3YxQVjfrDyNUJ6o-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="jdP1y3YxQVjfrDyNUJ6o-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdP1y3YxQVjfrDyNUJ6o-27" connectable="0" parent="jdP1y3YxQVjfrDyNUJ6o-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="2" vertex="1">
+          <mxGeometry relative="1" x="-0.156" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdP1y3YxQVjfrDyNUJ6o-21" edge="1" parent="1" source="jdP1y3YxQVjfrDyNUJ6o-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="jdP1y3YxQVjfrDyNUJ6o-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdP1y3YxQVjfrDyNUJ6o-26" connectable="0" parent="jdP1y3YxQVjfrDyNUJ6o-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.325" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdP1y3YxQVjfrDyNUJ6o-22" edge="1" parent="1" source="jdP1y3YxQVjfrDyNUJ6o-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="jdP1y3YxQVjfrDyNUJ6o-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdP1y3YxQVjfrDyNUJ6o-28" connectable="0" parent="jdP1y3YxQVjfrDyNUJ6o-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="3" vertex="1">
+          <mxGeometry relative="1" x="-0.4758" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdP1y3YxQVjfrDyNUJ6o-6" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="n is equal to" vertex="1">
+          <mxGeometry height="80" width="160" x="280" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="jdP1y3YxQVjfrDyNUJ6o-12" edge="1" parent="1" source="jdP1y3YxQVjfrDyNUJ6o-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="jdP1y3YxQVjfrDyNUJ6o-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdP1y3YxQVjfrDyNUJ6o-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Find n!" vertex="1">
+          <mxGeometry height="80" width="160" x="-80" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="jdP1y3YxQVjfrDyNUJ6o-19" edge="1" parent="1" source="jdP1y3YxQVjfrDyNUJ6o-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="jdP1y3YxQVjfrDyNUJ6o-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdP1y3YxQVjfrDyNUJ6o-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Find the n-th fibonacci number" vertex="1">
+          <mxGeometry height="80" width="160" x="640" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="jdP1y3YxQVjfrDyNUJ6o-16" edge="1" parent="1" source="jdP1y3YxQVjfrDyNUJ6o-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="jdP1y3YxQVjfrDyNUJ6o-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdP1y3YxQVjfrDyNUJ6o-23" connectable="0" parent="jdP1y3YxQVjfrDyNUJ6o-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="0.2788" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdP1y3YxQVjfrDyNUJ6o-17" edge="1" parent="1" source="jdP1y3YxQVjfrDyNUJ6o-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="jdP1y3YxQVjfrDyNUJ6o-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jdP1y3YxQVjfrDyNUJ6o-25" connectable="0" parent="jdP1y3YxQVjfrDyNUJ6o-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="No" vertex="1">
+          <mxGeometry relative="1" x="0.0132" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdP1y3YxQVjfrDyNUJ6o-10" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Is n a prime number" vertex="1">
+          <mxGeometry height="80" width="160" x="280" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="jdP1y3YxQVjfrDyNUJ6o-11" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;shapeInside=1;fontFamily=Inter;" value="Print n!" vertex="1">
+          <mxGeometry height="80" width="160" x="-80" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="jdP1y3YxQVjfrDyNUJ6o-13" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;shapeInside=1;fontFamily=Inter;" value="Print the n-th fibonacci number" vertex="1">
+          <mxGeometry height="80" width="160" x="640" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="jdP1y3YxQVjfrDyNUJ6o-14" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;shapeInside=1;fontFamily=Inter;" value="Print n is not a prime number" vertex="1">
+          <mxGeometry height="80" width="160" x="400" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="jdP1y3YxQVjfrDyNUJ6o-15" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;shapeInside=1;fontFamily=Inter;" value="Print n is a prime number" vertex="1">
+          <mxGeometry height="80" width="160" x="160" y="1040" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

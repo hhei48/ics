@@ -1,0 +1,89 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="A7wpHMm8piZ5W2co6dgW">
+    <mxGraphModel dx="2235" dy="1326" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AEmVPdnfpdNXG4CIsAax-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Inter;" value="Start&amp;nbsp;&lt;span style=&quot;font-family: Helvetica;&quot;&gt;converts user&#39;s number to decimals&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="AEmVPdnfpdNXG4CIsAax-5" edge="1" parent="1" source="AEmVPdnfpdNXG4CIsAax-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="AEmVPdnfpdNXG4CIsAax-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AEmVPdnfpdNXG4CIsAax-6" connectable="0" parent="AEmVPdnfpdNXG4CIsAax-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.1115" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEmVPdnfpdNXG4CIsAax-9" edge="1" parent="1" source="AEmVPdnfpdNXG4CIsAax-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="AEmVPdnfpdNXG4CIsAax-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AEmVPdnfpdNXG4CIsAax-10" connectable="0" parent="AEmVPdnfpdNXG4CIsAax-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.1418" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEmVPdnfpdNXG4CIsAax-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Is the number a decimal" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="AEmVPdnfpdNXG4CIsAax-3" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Inter;" value="Return the decimal number directly" vertex="1">
+          <mxGeometry height="80" width="160" x="560" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="AEmVPdnfpdNXG4CIsAax-22" edge="1" parent="1" source="AEmVPdnfpdNXG4CIsAax-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="AEmVPdnfpdNXG4CIsAax-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AEmVPdnfpdNXG4CIsAax-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Reverse the non-decimal string" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="AEmVPdnfpdNXG4CIsAax-8" edge="1" parent="1" source="AEmVPdnfpdNXG4CIsAax-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="AEmVPdnfpdNXG4CIsAax-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AEmVPdnfpdNXG4CIsAax-18" edge="1" parent="1" source="AEmVPdnfpdNXG4CIsAax-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="AEmVPdnfpdNXG4CIsAax-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AEmVPdnfpdNXG4CIsAax-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Multiply string[i] by base^i and add to the final answer" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="AEmVPdnfpdNXG4CIsAax-21" edge="1" parent="1" source="AEmVPdnfpdNXG4CIsAax-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="AEmVPdnfpdNXG4CIsAax-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AEmVPdnfpdNXG4CIsAax-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Set i=0" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="AEmVPdnfpdNXG4CIsAax-17" edge="1" parent="1" source="AEmVPdnfpdNXG4CIsAax-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="AEmVPdnfpdNXG4CIsAax-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AEmVPdnfpdNXG4CIsAax-23" connectable="0" parent="AEmVPdnfpdNXG4CIsAax-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.1875" y="2" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEmVPdnfpdNXG4CIsAax-20" edge="1" parent="1" source="AEmVPdnfpdNXG4CIsAax-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="AEmVPdnfpdNXG4CIsAax-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AEmVPdnfpdNXG4CIsAax-24" connectable="0" parent="AEmVPdnfpdNXG4CIsAax-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="0.0375" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEmVPdnfpdNXG4CIsAax-14" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Did you reach the end of the number string?" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="AEmVPdnfpdNXG4CIsAax-16" edge="1" parent="1" source="AEmVPdnfpdNXG4CIsAax-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="AEmVPdnfpdNXG4CIsAax-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="1400" />
+              <mxPoint x="240" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEmVPdnfpdNXG4CIsAax-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Increment i by 1" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="AEmVPdnfpdNXG4CIsAax-19" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Inter;" value="Return the converted decimal as a string" vertex="1">
+          <mxGeometry height="80" width="160" x="560" y="1200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

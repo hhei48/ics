@@ -1,0 +1,3 @@
+Rule #1: All indentations must be composed of 4 keyboard spaces.
+Rule #2: Mutable variables should be named with snake_case
+Rule #3: Each line should have a maximum of 79 characters

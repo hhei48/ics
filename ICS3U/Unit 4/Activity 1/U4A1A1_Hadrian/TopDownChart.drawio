@@ -1,0 +1,169 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="tcwOLRH1o7wA9nAABvLX">
+    <mxGraphModel dx="1285" dy="1863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Z-jz4ue2hCeP5G8lN9wo-5" edge="1" parent="1" source="Z-jz4ue2hCeP5G8lN9wo-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="Z-jz4ue2hCeP5G8lN9wo-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-jz4ue2hCeP5G8lN9wo-6" edge="1" parent="1" source="Z-jz4ue2hCeP5G8lN9wo-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="Z-jz4ue2hCeP5G8lN9wo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-jz4ue2hCeP5G8lN9wo-7" edge="1" parent="1" source="Z-jz4ue2hCeP5G8lN9wo-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="Z-jz4ue2hCeP5G8lN9wo-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-jz4ue2hCeP5G8lN9wo-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Data Validator" vertex="1">
+          <mxGeometry height="80" width="160" x="360" as="geometry" />
+        </mxCell>
+        <mxCell id="8FaguVTUfo-5WVhkeP_G-14" edge="1" parent="1" source="Z-jz4ue2hCeP5G8lN9wo-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="8FaguVTUfo-5WVhkeP_G-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-jz4ue2hCeP5G8lN9wo-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Process" vertex="1">
+          <mxGeometry height="80" width="160" x="360" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-jz4ue2hCeP5G8lN9wo-26" edge="1" parent="1" source="Z-jz4ue2hCeP5G8lN9wo-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="Z-jz4ue2hCeP5G8lN9wo-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-jz4ue2hCeP5G8lN9wo-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Output" vertex="1">
+          <mxGeometry height="80" width="160" x="600" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-jz4ue2hCeP5G8lN9wo-14" edge="1" parent="1" source="Z-jz4ue2hCeP5G8lN9wo-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="Z-jz4ue2hCeP5G8lN9wo-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-jz4ue2hCeP5G8lN9wo-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Input" vertex="1">
+          <mxGeometry height="80" width="160" x="120" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-jz4ue2hCeP5G8lN9wo-15" edge="1" parent="1" source="Z-jz4ue2hCeP5G8lN9wo-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="Z-jz4ue2hCeP5G8lN9wo-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-jz4ue2hCeP5G8lN9wo-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="User inputs string for stage 1" vertex="1">
+          <mxGeometry height="80" width="160" x="120" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-jz4ue2hCeP5G8lN9wo-16" edge="1" parent="1" source="Z-jz4ue2hCeP5G8lN9wo-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="Z-jz4ue2hCeP5G8lN9wo-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-jz4ue2hCeP5G8lN9wo-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="User inputs string for stage 1" vertex="1">
+          <mxGeometry height="80" width="160" x="120" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-jz4ue2hCeP5G8lN9wo-17" edge="1" parent="1" source="Z-jz4ue2hCeP5G8lN9wo-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="Z-jz4ue2hCeP5G8lN9wo-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-jz4ue2hCeP5G8lN9wo-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="User inputs string for stage 3" vertex="1">
+          <mxGeometry height="80" width="160" x="120" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-jz4ue2hCeP5G8lN9wo-18" edge="1" parent="1" source="Z-jz4ue2hCeP5G8lN9wo-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="Z-jz4ue2hCeP5G8lN9wo-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-jz4ue2hCeP5G8lN9wo-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="User inputs integer for stage 4" vertex="1">
+          <mxGeometry height="80" width="160" x="120" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-jz4ue2hCeP5G8lN9wo-19" edge="1" parent="1" source="Z-jz4ue2hCeP5G8lN9wo-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="Z-jz4ue2hCeP5G8lN9wo-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-jz4ue2hCeP5G8lN9wo-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="User inputs integer for stage 5" vertex="1">
+          <mxGeometry height="80" width="160" x="120" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-jz4ue2hCeP5G8lN9wo-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="User inputs integer for stage 6" vertex="1">
+          <mxGeometry height="80" width="160" x="120" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-jz4ue2hCeP5G8lN9wo-27" edge="1" parent="1" source="Z-jz4ue2hCeP5G8lN9wo-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="Z-jz4ue2hCeP5G8lN9wo-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-jz4ue2hCeP5G8lN9wo-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Outputs Congratulations message for stage 1" vertex="1">
+          <mxGeometry height="80" width="160" x="600" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-jz4ue2hCeP5G8lN9wo-28" edge="1" parent="1" source="Z-jz4ue2hCeP5G8lN9wo-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="Z-jz4ue2hCeP5G8lN9wo-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-jz4ue2hCeP5G8lN9wo-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Outputs Congratulations message for stage 2" vertex="1">
+          <mxGeometry height="80" width="160" x="600" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-jz4ue2hCeP5G8lN9wo-30" edge="1" parent="1" source="Z-jz4ue2hCeP5G8lN9wo-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="Z-jz4ue2hCeP5G8lN9wo-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-jz4ue2hCeP5G8lN9wo-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Outputs Congratulations message for stage 3" vertex="1">
+          <mxGeometry height="80" width="160" x="600" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-jz4ue2hCeP5G8lN9wo-31" edge="1" parent="1" source="Z-jz4ue2hCeP5G8lN9wo-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="Z-jz4ue2hCeP5G8lN9wo-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-jz4ue2hCeP5G8lN9wo-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Outputs Congratulations message for stage 4" vertex="1">
+          <mxGeometry height="80" width="160" x="600" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-jz4ue2hCeP5G8lN9wo-32" edge="1" parent="1" source="Z-jz4ue2hCeP5G8lN9wo-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="Z-jz4ue2hCeP5G8lN9wo-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-jz4ue2hCeP5G8lN9wo-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Outputs Congratulations message for stage 5" vertex="1">
+          <mxGeometry height="80" width="160" x="600" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-jz4ue2hCeP5G8lN9wo-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Outputs Congratulations message for stage 6" vertex="1">
+          <mxGeometry height="80" width="160" x="600" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="8FaguVTUfo-5WVhkeP_G-15" edge="1" parent="1" source="8FaguVTUfo-5WVhkeP_G-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="8FaguVTUfo-5WVhkeP_G-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8FaguVTUfo-5WVhkeP_G-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Checks if a string is longer than 6 characters" vertex="1">
+          <mxGeometry height="80" width="160" x="360" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="8FaguVTUfo-5WVhkeP_G-16" edge="1" parent="1" source="8FaguVTUfo-5WVhkeP_G-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="8FaguVTUfo-5WVhkeP_G-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8FaguVTUfo-5WVhkeP_G-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Check if the string contains &#39;a&#39;" vertex="1">
+          <mxGeometry height="80" width="160" x="360" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="8FaguVTUfo-5WVhkeP_G-17" edge="1" parent="1" source="8FaguVTUfo-5WVhkeP_G-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="8FaguVTUfo-5WVhkeP_G-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8FaguVTUfo-5WVhkeP_G-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Check if z is in the string" vertex="1">
+          <mxGeometry height="80" width="160" x="360" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="8FaguVTUfo-5WVhkeP_G-18" edge="1" parent="1" source="8FaguVTUfo-5WVhkeP_G-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="8FaguVTUfo-5WVhkeP_G-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8FaguVTUfo-5WVhkeP_G-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Check if the string is between 5 and 15 characters long" vertex="1">
+          <mxGeometry height="80" width="160" x="360" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="8FaguVTUfo-5WVhkeP_G-19" edge="1" parent="1" source="8FaguVTUfo-5WVhkeP_G-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="8FaguVTUfo-5WVhkeP_G-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8FaguVTUfo-5WVhkeP_G-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Check if the input is an integer" vertex="1">
+          <mxGeometry height="80" width="160" x="360" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="8FaguVTUfo-5WVhkeP_G-20" edge="1" parent="1" source="8FaguVTUfo-5WVhkeP_G-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="8FaguVTUfo-5WVhkeP_G-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8FaguVTUfo-5WVhkeP_G-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Check if the integer is between 5 and 500" vertex="1">
+          <mxGeometry height="80" width="160" x="360" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="8FaguVTUfo-5WVhkeP_G-21" edge="1" parent="1" source="8FaguVTUfo-5WVhkeP_G-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="8FaguVTUfo-5WVhkeP_G-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8FaguVTUfo-5WVhkeP_G-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Check if the input is an integer" vertex="1">
+          <mxGeometry height="80" width="160" x="360" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="8FaguVTUfo-5WVhkeP_G-22" edge="1" parent="1" source="8FaguVTUfo-5WVhkeP_G-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="8FaguVTUfo-5WVhkeP_G-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8FaguVTUfo-5WVhkeP_G-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Check if the integer is negative" vertex="1">
+          <mxGeometry height="80" width="160" x="360" y="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="8FaguVTUfo-5WVhkeP_G-23" edge="1" parent="1" source="8FaguVTUfo-5WVhkeP_G-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="8FaguVTUfo-5WVhkeP_G-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8FaguVTUfo-5WVhkeP_G-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Check if the input is an integer" vertex="1">
+          <mxGeometry height="80" width="160" x="360" y="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="JiX_PiRnAXgRV8HGLnBY-1" edge="1" parent="1" source="8FaguVTUfo-5WVhkeP_G-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="8FaguVTUfo-5WVhkeP_G-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8FaguVTUfo-5WVhkeP_G-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Check if the integer is negative" vertex="1">
+          <mxGeometry height="80" width="160" x="360" y="1760" as="geometry" />
+        </mxCell>
+        <mxCell id="8FaguVTUfo-5WVhkeP_G-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Check if the integer is odd" vertex="1">
+          <mxGeometry height="80" width="160" x="360" y="1920" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

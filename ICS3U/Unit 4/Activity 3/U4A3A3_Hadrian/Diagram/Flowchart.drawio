@@ -1,0 +1,57 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="dIvpqHw9JBGJP26e7eBs">
+    <mxGraphModel dx="1414" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oFWy9bZMvosO-Vgpk9eJ-32" edge="1" parent="1" source="oFWy9bZMvosO-Vgpk9eJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oFWy9bZMvosO-Vgpk9eJ-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Inter;" value="Start" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="O1PkHjdc5B0OVll0ei7a-3" edge="1" parent="1" source="oFWy9bZMvosO-Vgpk9eJ-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="O1PkHjdc5B0OVll0ei7a-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oFWy9bZMvosO-Vgpk9eJ-57" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;shapeInside=1;fontFamily=Inter;" value="Print the title and the menu" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="oFWy9bZMvosO-Vgpk9eJ-67" edge="1" parent="1" source="oFWy9bZMvosO-Vgpk9eJ-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="oFWy9bZMvosO-Vgpk9eJ-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oFWy9bZMvosO-Vgpk9eJ-59" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;shapeInside=1;fontFamily=Inter;" value="Get user&#39;s to be converted number" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="oFWy9bZMvosO-Vgpk9eJ-66" edge="1" parent="1" source="oFWy9bZMvosO-Vgpk9eJ-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="oFWy9bZMvosO-Vgpk9eJ-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oFWy9bZMvosO-Vgpk9eJ-60" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Validates user&#39;s choice" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="oFWy9bZMvosO-Vgpk9eJ-68" edge="1" parent="1" source="oFWy9bZMvosO-Vgpk9eJ-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="oFWy9bZMvosO-Vgpk9eJ-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oFWy9bZMvosO-Vgpk9eJ-61" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Converts user&#39;s number to decimals" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="oFWy9bZMvosO-Vgpk9eJ-69" edge="1" parent="1" source="oFWy9bZMvosO-Vgpk9eJ-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="oFWy9bZMvosO-Vgpk9eJ-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oFWy9bZMvosO-Vgpk9eJ-62" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Converts decimal number to the required output base" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="oFWy9bZMvosO-Vgpk9eJ-63" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;shapeInside=1;fontFamily=Inter;" value="Print the converted number" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="1480" as="geometry" />
+        </mxCell>
+        <mxCell id="O1PkHjdc5B0OVll0ei7a-4" edge="1" parent="1" source="O1PkHjdc5B0OVll0ei7a-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="oFWy9bZMvosO-Vgpk9eJ-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O1PkHjdc5B0OVll0ei7a-2" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;shapeInside=1;fontFamily=Inter;" value="Get user&#39;s choice" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="680" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

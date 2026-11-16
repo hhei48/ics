@@ -1,0 +1,97 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="yv_l5w6tI3PCAnERSaQY">
+    <mxGraphModel dx="2659" dy="1578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dG9p6hICHtgKCj0q2W6A-5" edge="1" parent="1" source="dG9p6hICHtgKCj0q2W6A-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="dG9p6hICHtgKCj0q2W6A-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dG9p6hICHtgKCj0q2W6A-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Inter;" value="Finish" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dG9p6hICHtgKCj0q2W6A-21" edge="1" parent="1" source="dG9p6hICHtgKCj0q2W6A-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="dG9p6hICHtgKCj0q2W6A-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dG9p6hICHtgKCj0q2W6A-4" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;shapeInside=1;fontFamily=Inter;" value="Get user&#39;s vrobits amount" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="dG9p6hICHtgKCj0q2W6A-10" edge="1" parent="1" source="dG9p6hICHtgKCj0q2W6A-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="dG9p6hICHtgKCj0q2W6A-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dG9p6hICHtgKCj0q2W6A-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="For each coin type" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="dG9p6hICHtgKCj0q2W6A-12" edge="1" parent="1" source="dG9p6hICHtgKCj0q2W6A-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="dG9p6hICHtgKCj0q2W6A-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="600" />
+              <mxPoint x="560" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dG9p6hICHtgKCj0q2W6A-13" connectable="0" parent="dG9p6hICHtgKCj0q2W6A-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.7328" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dG9p6hICHtgKCj0q2W6A-15" edge="1" parent="1" source="dG9p6hICHtgKCj0q2W6A-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="dG9p6hICHtgKCj0q2W6A-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dG9p6hICHtgKCj0q2W6A-16" connectable="0" parent="dG9p6hICHtgKCj0q2W6A-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.1154" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dG9p6hICHtgKCj0q2W6A-7" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Is the user&#39;s amount greater than or equal to the current coin value" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="dG9p6hICHtgKCj0q2W6A-18" edge="1" parent="1" source="dG9p6hICHtgKCj0q2W6A-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="dG9p6hICHtgKCj0q2W6A-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f0hpY8lY4Ez0ekQjJP00-4" connectable="0" parent="dG9p6hICHtgKCj0q2W6A-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.066" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dG9p6hICHtgKCj0q2W6A-8" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Is all coin type looped?" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="dG9p6hICHtgKCj0q2W6A-9" edge="1" parent="1" source="dG9p6hICHtgKCj0q2W6A-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="dG9p6hICHtgKCj0q2W6A-6">
+          <mxGeometry relative="1" x="-0.4062" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="1080" />
+              <mxPoint x="560" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dG9p6hICHtgKCj0q2W6A-11" connectable="0" parent="dG9p6hICHtgKCj0q2W6A-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.8324" as="geometry">
+            <mxPoint x="-27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f0hpY8lY4Ez0ekQjJP00-2" edge="1" parent="1" source="dG9p6hICHtgKCj0q2W6A-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="f0hpY8lY4Ez0ekQjJP00-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dG9p6hICHtgKCj0q2W6A-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Add coin count by the amount integer divided by the coin value" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="dG9p6hICHtgKCj0q2W6A-20" edge="1" parent="1" source="dG9p6hICHtgKCj0q2W6A-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="dG9p6hICHtgKCj0q2W6A-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dG9p6hICHtgKCj0q2W6A-17" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;shapeInside=1;fontFamily=Inter;" value="Print all used coin count" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="dG9p6hICHtgKCj0q2W6A-19" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Inter;" value="Finish" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="f0hpY8lY4Ez0ekQjJP00-3" edge="1" parent="1" source="f0hpY8lY4Ez0ekQjJP00-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="dG9p6hICHtgKCj0q2W6A-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f0hpY8lY4Ez0ekQjJP00-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Amount equals to the remainder" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="880" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

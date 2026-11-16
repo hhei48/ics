@@ -1,0 +1,199 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="6xQDcXNCvia-h0EFZsbZ">
+    <mxGraphModel dx="5523" dy="2773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-23" edge="1" parent="1" source="iV1bcw5UM-wn8lDc26c9-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="iV1bcw5UM-wn8lDc26c9-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Inter;" value="Start" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-24" edge="1" parent="1" source="iV1bcw5UM-wn8lDc26c9-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="iV1bcw5UM-wn8lDc26c9-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Select a random animal word" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-25" edge="1" parent="1" source="iV1bcw5UM-wn8lDc26c9-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="iV1bcw5UM-wn8lDc26c9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-5" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;shapeInside=1;fontFamily=Inter;" value="Print the title, description, and an empty hangman" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-26" edge="1" parent="1" source="iV1bcw5UM-wn8lDc26c9-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="iV1bcw5UM-wn8lDc26c9-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-6" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;shapeInside=1;fontFamily=Inter;" value="Print the user&#39;s empty word" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-14" edge="1" parent="1" source="iV1bcw5UM-wn8lDc26c9-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="iV1bcw5UM-wn8lDc26c9-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-7" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;shapeInside=1;fontFamily=Inter;" value="Get a letter from the user" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-10" edge="1" parent="1" source="iV1bcw5UM-wn8lDc26c9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="iV1bcw5UM-wn8lDc26c9-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="1080" />
+              <mxPoint x="240" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-27" connectable="0" parent="iV1bcw5UM-wn8lDc26c9-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.7369" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-13" edge="1" parent="1" source="iV1bcw5UM-wn8lDc26c9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="iV1bcw5UM-wn8lDc26c9-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-29" connectable="0" parent="iV1bcw5UM-wn8lDc26c9-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.218" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-9" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Is the user&#39;s letter a valid sing letter alphabet" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-12" edge="1" parent="1" source="iV1bcw5UM-wn8lDc26c9-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="iV1bcw5UM-wn8lDc26c9-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="1239.9999999999998" />
+              <mxPoint x="240" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-28" connectable="0" parent="iV1bcw5UM-wn8lDc26c9-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.8326" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-16" edge="1" parent="1" source="iV1bcw5UM-wn8lDc26c9-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="iV1bcw5UM-wn8lDc26c9-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-30" connectable="0" parent="iV1bcw5UM-wn8lDc26c9-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.348" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-11" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Is the letter used before" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-20" edge="1" parent="1" source="iV1bcw5UM-wn8lDc26c9-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="iV1bcw5UM-wn8lDc26c9-17" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-21" edge="1" parent="1" source="iV1bcw5UM-wn8lDc26c9-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="iV1bcw5UM-wn8lDc26c9-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-32" connectable="0" parent="iV1bcw5UM-wn8lDc26c9-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="0.0188" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-15" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Is the user&#39;s letter present in the hangman word" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-33" edge="1" parent="1" source="iV1bcw5UM-wn8lDc26c9-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="iV1bcw5UM-wn8lDc26c9-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-17" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;shapeInside=1;fontFamily=Inter;" value="Tell the user they guessed it wrong" vertex="1">
+          <mxGeometry height="80" width="160" x="200" y="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-52" edge="1" parent="1" source="iV1bcw5UM-wn8lDc26c9-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="iV1bcw5UM-wn8lDc26c9-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-19" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;shapeInside=1;fontFamily=Inter;" value="Tell the user they guessed the letter correctly" vertex="1">
+          <mxGeometry height="80" width="160" x="440" y="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-22" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;shapeInside=1;fontFamily=Inter;" value="Prints the hangman image" vertex="1">
+          <mxGeometry height="80" width="160" x="200" y="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-39" edge="1" parent="1" source="iV1bcw5UM-wn8lDc26c9-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="iV1bcw5UM-wn8lDc26c9-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-41" connectable="0" parent="iV1bcw5UM-wn8lDc26c9-39" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.1325" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-48" edge="1" parent="1" source="iV1bcw5UM-wn8lDc26c9-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="iV1bcw5UM-wn8lDc26c9-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-50" connectable="0" parent="iV1bcw5UM-wn8lDc26c9-48" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.7625" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-34" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Has the user guessed 6 letters wrong" vertex="1">
+          <mxGeometry height="80" width="160" x="200" y="1840" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-36" edge="1" parent="1" source="iV1bcw5UM-wn8lDc26c9-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="iV1bcw5UM-wn8lDc26c9-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-37" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Inter;" value="Finish" vertex="1">
+          <mxGeometry height="80" width="160" x="-40" y="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-40" edge="1" parent="1" source="iV1bcw5UM-wn8lDc26c9-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="iV1bcw5UM-wn8lDc26c9-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-38" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;shapeInside=1;fontFamily=Inter;" value="Tell the user they lost and print the word" vertex="1">
+          <mxGeometry height="80" width="160" x="-40" y="1840" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-49" edge="1" parent="1" source="iV1bcw5UM-wn8lDc26c9-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="iV1bcw5UM-wn8lDc26c9-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-46" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;shapeInside=1;fontFamily=Inter;" value="Print missed letters" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-64" edge="1" parent="1" source="iV1bcw5UM-wn8lDc26c9-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="iV1bcw5UM-wn8lDc26c9-7">
+          <mxGeometry relative="1" x="-0.1997" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="2200" />
+              <mxPoint x="640" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-47" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;shapeInside=1;fontFamily=Inter;" value="Print used letters" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="2160" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-55" edge="1" parent="1" source="iV1bcw5UM-wn8lDc26c9-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="iV1bcw5UM-wn8lDc26c9-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-51" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Add the correct letters to the user&#39;s template" vertex="1">
+          <mxGeometry height="80" width="160" x="440" y="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-56" edge="1" parent="1" source="iV1bcw5UM-wn8lDc26c9-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="iV1bcw5UM-wn8lDc26c9-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-57" connectable="0" parent="iV1bcw5UM-wn8lDc26c9-56" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.8077" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-60" edge="1" parent="1" source="iV1bcw5UM-wn8lDc26c9-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="iV1bcw5UM-wn8lDc26c9-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-62" connectable="0" parent="iV1bcw5UM-wn8lDc26c9-60" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.2087" as="geometry">
+            <mxPoint x="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-54" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Has all selected letters been gussed?" vertex="1">
+          <mxGeometry height="80" width="160" x="440" y="1840" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-61" edge="1" parent="1" source="iV1bcw5UM-wn8lDc26c9-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="iV1bcw5UM-wn8lDc26c9-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-58" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;shapeInside=1;fontFamily=Inter;" value="Tell the user they won" vertex="1">
+          <mxGeometry height="80" width="160" x="680" y="1840" as="geometry" />
+        </mxCell>
+        <mxCell id="iV1bcw5UM-wn8lDc26c9-59" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Inter;" value="Finish" vertex="1">
+          <mxGeometry height="80" width="160" x="680" y="2000" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,73 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="TsGQqh0tSzht7GAtu-kb">
+    <mxGraphModel dx="2235" dy="1326" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aR-sgSScCxVCbJaHsigz-28" edge="1" parent="1" source="aR-sgSScCxVCbJaHsigz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="aR-sgSScCxVCbJaHsigz-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aR-sgSScCxVCbJaHsigz-32" edge="1" parent="1" source="aR-sgSScCxVCbJaHsigz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="aR-sgSScCxVCbJaHsigz-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aR-sgSScCxVCbJaHsigz-33" edge="1" parent="1" source="aR-sgSScCxVCbJaHsigz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="aR-sgSScCxVCbJaHsigz-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aR-sgSScCxVCbJaHsigz-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Convert decimals, binary, and hexadecimals" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="aR-sgSScCxVCbJaHsigz-19" edge="1" parent="1" source="aR-sgSScCxVCbJaHsigz-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="aR-sgSScCxVCbJaHsigz-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aR-sgSScCxVCbJaHsigz-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Validates user&#39;s choice" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="aR-sgSScCxVCbJaHsigz-20" edge="1" parent="1" source="aR-sgSScCxVCbJaHsigz-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="aR-sgSScCxVCbJaHsigz-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aR-sgSScCxVCbJaHsigz-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Converts user&#39;s number to decimals" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="aR-sgSScCxVCbJaHsigz-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Converts decimal number to the required output base" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="aR-sgSScCxVCbJaHsigz-18" edge="1" parent="1" source="aR-sgSScCxVCbJaHsigz-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="aR-sgSScCxVCbJaHsigz-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aR-sgSScCxVCbJaHsigz-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Get user&#39;s to be converted number" vertex="1">
+          <mxGeometry height="80" width="160" x="80" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="aR-sgSScCxVCbJaHsigz-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Get user&#39;s choice" vertex="1">
+          <mxGeometry height="80" width="160" x="80" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="aR-sgSScCxVCbJaHsigz-21" edge="1" parent="1" source="aR-sgSScCxVCbJaHsigz-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="aR-sgSScCxVCbJaHsigz-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aR-sgSScCxVCbJaHsigz-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-family: Inter;&quot;&gt;Print the title and the menu&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="560" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="aR-sgSScCxVCbJaHsigz-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-family: Inter;&quot;&gt;Print the converted number&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="560" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="aR-sgSScCxVCbJaHsigz-29" edge="1" parent="1" source="aR-sgSScCxVCbJaHsigz-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="aR-sgSScCxVCbJaHsigz-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aR-sgSScCxVCbJaHsigz-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Process" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="aR-sgSScCxVCbJaHsigz-30" edge="1" parent="1" source="aR-sgSScCxVCbJaHsigz-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="aR-sgSScCxVCbJaHsigz-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aR-sgSScCxVCbJaHsigz-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Input" vertex="1">
+          <mxGeometry height="80" width="160" x="80" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="aR-sgSScCxVCbJaHsigz-31" edge="1" parent="1" source="aR-sgSScCxVCbJaHsigz-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="aR-sgSScCxVCbJaHsigz-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aR-sgSScCxVCbJaHsigz-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Output" vertex="1">
+          <mxGeometry height="80" width="160" x="560" y="360" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

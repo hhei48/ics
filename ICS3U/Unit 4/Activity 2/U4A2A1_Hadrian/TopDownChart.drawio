@@ -1,0 +1,55 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="FmED_mRaokeNYeBHhqXB">
+    <mxGraphModel dx="1858" dy="1102" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Fb37IO3a_SjkQMFcUpMY-34" edge="1" parent="1" source="Fb37IO3a_SjkQMFcUpMY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="Fb37IO3a_SjkQMFcUpMY-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb37IO3a_SjkQMFcUpMY-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Add coin count by the amount integer divided by the coin value" vertex="1">
+          <mxGeometry height="80" width="160" x="280" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb37IO3a_SjkQMFcUpMY-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="amount equals to the remainder" vertex="1">
+          <mxGeometry height="80" width="160" x="280" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb37IO3a_SjkQMFcUpMY-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Get user&#39;s vrobits amount" vertex="1">
+          <mxGeometry height="80" width="160" x="40" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb37IO3a_SjkQMFcUpMY-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Print all used coins" vertex="1">
+          <mxGeometry height="80" width="160" x="520" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb37IO3a_SjkQMFcUpMY-31" edge="1" parent="1" source="Fb37IO3a_SjkQMFcUpMY-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="Fb37IO3a_SjkQMFcUpMY-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb37IO3a_SjkQMFcUpMY-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Input" vertex="1">
+          <mxGeometry height="80" width="160" x="40" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb37IO3a_SjkQMFcUpMY-32" edge="1" parent="1" source="Fb37IO3a_SjkQMFcUpMY-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="Fb37IO3a_SjkQMFcUpMY-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb37IO3a_SjkQMFcUpMY-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Process" vertex="1">
+          <mxGeometry height="80" width="160" x="280" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb37IO3a_SjkQMFcUpMY-33" edge="1" parent="1" source="Fb37IO3a_SjkQMFcUpMY-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="Fb37IO3a_SjkQMFcUpMY-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb37IO3a_SjkQMFcUpMY-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Output" vertex="1">
+          <mxGeometry height="80" width="160" x="520" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb37IO3a_SjkQMFcUpMY-28" edge="1" parent="1" source="Fb37IO3a_SjkQMFcUpMY-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="Fb37IO3a_SjkQMFcUpMY-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb37IO3a_SjkQMFcUpMY-29" edge="1" parent="1" source="Fb37IO3a_SjkQMFcUpMY-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="Fb37IO3a_SjkQMFcUpMY-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb37IO3a_SjkQMFcUpMY-30" edge="1" parent="1" source="Fb37IO3a_SjkQMFcUpMY-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="Fb37IO3a_SjkQMFcUpMY-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fb37IO3a_SjkQMFcUpMY-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Vrobit compression program" vertex="1">
+          <mxGeometry height="80" width="160" x="280" y="440" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

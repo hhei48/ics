@@ -1,0 +1,73 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="ZnP37DE7d58SYIcmuhga">
+    <mxGraphModel dx="1542" dy="915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Sf_P6a9qQAWQIrksXnvl-15" edge="1" parent="1" source="Sf_P6a9qQAWQIrksXnvl-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="Sf_P6a9qQAWQIrksXnvl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf_P6a9qQAWQIrksXnvl-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Inter;" value="Start get and validate user&#39;s choice" vertex="1">
+          <mxGeometry height="80" width="160" x="240" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf_P6a9qQAWQIrksXnvl-5" edge="1" parent="1" source="Sf_P6a9qQAWQIrksXnvl-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="Sf_P6a9qQAWQIrksXnvl-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf_P6a9qQAWQIrksXnvl-2" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;shapeInside=1;fontFamily=Inter;" value="Get user&#39;s choice" vertex="1">
+          <mxGeometry height="80" width="160" x="240" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf_P6a9qQAWQIrksXnvl-4" edge="1" parent="1" source="Sf_P6a9qQAWQIrksXnvl-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="Sf_P6a9qQAWQIrksXnvl-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="679.9999999999998" />
+              <mxPoint x="160" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf_P6a9qQAWQIrksXnvl-14" connectable="0" parent="Sf_P6a9qQAWQIrksXnvl-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.7867" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf_P6a9qQAWQIrksXnvl-3" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Is the choice an integer" vertex="1">
+          <mxGeometry height="80" width="160" x="240" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf_P6a9qQAWQIrksXnvl-8" edge="1" parent="1" source="Sf_P6a9qQAWQIrksXnvl-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="Sf_P6a9qQAWQIrksXnvl-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="840" />
+              <mxPoint x="160" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf_P6a9qQAWQIrksXnvl-13" connectable="0" parent="Sf_P6a9qQAWQIrksXnvl-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.8181" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf_P6a9qQAWQIrksXnvl-10" edge="1" parent="1" source="Sf_P6a9qQAWQIrksXnvl-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="Sf_P6a9qQAWQIrksXnvl-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf_P6a9qQAWQIrksXnvl-12" connectable="0" parent="Sf_P6a9qQAWQIrksXnvl-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="0.0351" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf_P6a9qQAWQIrksXnvl-6" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Is the choice within 1 and 6" vertex="1">
+          <mxGeometry height="80" width="160" x="240" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf_P6a9qQAWQIrksXnvl-7" edge="1" parent="1" source="Sf_P6a9qQAWQIrksXnvl-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="Sf_P6a9qQAWQIrksXnvl-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sf_P6a9qQAWQIrksXnvl-11" connectable="0" parent="Sf_P6a9qQAWQIrksXnvl-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="0.0467" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sf_P6a9qQAWQIrksXnvl-9" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Inter;" value="Return the valid choice" vertex="1">
+          <mxGeometry height="80" width="160" x="240" y="960" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

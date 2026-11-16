@@ -1,0 +1,9 @@
+START
+CREATE coin information array with coin value, coin name, and coin count
+INPUT user's amount
+FOR each coin type in the coin information array
+    IF user's amount is greater or equals to the current coin type value THEN
+        ADD user's amount integer divided by current coin type value to the current coin type count
+    END IF
+END FOR
+OUTPUT each used coin's name and count
